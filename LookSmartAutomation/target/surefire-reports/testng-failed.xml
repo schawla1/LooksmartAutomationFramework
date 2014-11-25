@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Suite1]" parallel="classes">
+  <listeners>
+    <listener class-name="com.looksmart.selencommands.LoggerListener"/>
+  </listeners>
+  <test name="loginTestCase_Firefox(failed)" parallel="classes" preserve-order="false">
+    <classes>
+      <class name="com.looksmart.testsuits.SignUpTestSuite">
+        <methods>
+          <include name="signUp"/>
+          <include name="openUrl"/>
+        </methods>
+      </class>
+      <class name="com.looksmart.testsuits.LoginTestSuite">
+        <methods>
+          <include name="openUrl"/>
+          <include name="quit"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

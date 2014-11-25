@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="classes" thread-count="2">
+	 <test name="loginTestCase_Firefox">
+	 <classes>
+			<class name="com.looksmart.testsuits.LoginTestSuite" />
+			<class name="com.looksmart.testsuits.SignUpTestSuite" />
+			
+			</classes>
+		
+	</test>
+	<listeners>
+	<listener class-name="com.looksmart.selencommands.LoggerListener"></listener>
+	</listeners>
+
+</suite>

@@ -1,0 +1,33 @@
+						Ad Group 
+
+AdGroupNameFieldData=Sale smartly	 	
+TitleFieldData=Soap
+DescriptionFieldData=On  Line Sale of Soaps
+DisplayUrlFieldData=http://soap.com
+DestinationUrlFieldData=soap.com
+ExactMatchFieldData=soap,sale soap,cheap soap
+BroadMatchFieldData=acne soap,lux soap,dove,best soap
+
+
+						Login
+						
+EmailTextFieldData=schawla14@clickable.com
+PhoneTextFieldData=1111111
+WebsiteUrlTextFieldData=www.testng.com
+
+
+						Register
+
+SignUpPasswordTextFieldData=123456
+ConfirmPasswordTextFieldData=123456
+
+						Create Ad
+
+MonthlyBudgetTextFieldData=1.00
+
+						Terms and Conditions Page
+		
+TermsAndConditionSelectBoxId=terms_and_conditions
+ContinueButtonXpath=//*[@value='Continue']
+
+

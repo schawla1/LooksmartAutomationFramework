@@ -1,0 +1,12 @@
+Server.url=https://qa-ampwebui01.qa.looksmart.com:8760/security/login
+Server.admin.url=
+Browser=firefox
+LoginId=schawla@clickable.com
+LoginPassword=123456
+ScreenShotPath=screenShot
+DB.SERVER=
+JDBC.DRIVER =com.mysql.jdbc.Driver
+DB.URL =jdbc:mysql://localhost/college
+DB.PORT=3306
+DB.USERID=root
+DB.PASSWD=root

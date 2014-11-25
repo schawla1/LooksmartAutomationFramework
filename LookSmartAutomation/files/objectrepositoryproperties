@@ -1,0 +1,47 @@
+						LOGIN PAGE
+LoginTextFieldId=user_email
+LoginPasswordTextFieldId=user_password
+LogInButtonXpath=//*[@value='Log In']
+AdmenuXpath=//*[@class='adsMenu']
+EmailTextFieldId=lead_email
+PhoneTextFieldId=lead_phone
+WebsiteUrlTextFieldId=lead_website
+GetStartedButtonId=lead-form-submit
+AdMenuText=ADS
+
+						Home Page
+						
+CreateAdGroupIconXpath=//*[@id='cre_ad_menu']
+SignOutIconXpath=//*[@href='/security/logout']
+
+						Ad Group Page
+						
+AdGroupNameFieldId=ad_group_name
+TitleFieldId=ad_title
+DescritionFieldId=ad_description
+DisplayUrlFieldId=ad_site
+DestinationUrlField=ad_url
+ContinueButtonXpath=//*[@value='Continue']
+
+				ManageAdGroup
+				
+ExactMatchTextId=ad_keyword_smart_keywords
+BroadMatchTextId=ad_keyword_broad_keywords
+SubmitButtonId=add_keywords_submit_btn
+
+				Register
+				
+
+SignUpPasswordTextFieldId=user_password
+ConfirmPasswordTextFieldId=user_password_confirmation
+NextButtonXpath=//*[@id='register-account-btn']
+
+				Create Ad
+
+MonthlyBudgetTextFieldId=campaign_monthly_budget_dummy
+SubmitButtonXpath=//*[@value='Submit']
+
+
+
+						
+						
